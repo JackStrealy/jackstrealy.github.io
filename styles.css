@@ -23,4 +23,19 @@ a {
 
 a:hover {
   text-decoration: underline;
-}
+ <h1>Client Data</h1>
+
+    <table id="dataTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data rows will be injected here by JavaScript -->
+        </tbody>
+    </table>
